@@ -3,4 +3,37 @@
     src: url("fonts/Norse-Bold.otf") format("opentype");
   }
 
-  
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+}
+
+.col1, .col2, .row1, .row2, .row3 {
+    display: flex;
+    margin: 4px 4px 4px 0px;
+}
+
+.col2, .col2, .row1, .row2, .row3 {
+    flex-direction: column;
+}
+
+.row2 {
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.col1 {
+    height: 100%;
+}
+
+img {
+    height: 100%;
+    width: auto; /* Maintain aspect ratio */
+}
+
