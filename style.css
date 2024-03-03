@@ -1,4 +1,6 @@
 @font-face {
     font-family: NorseBold;
-    src: url("fonts/Norse-Bold.otf");
+    src: url("fonts/Norse-Bold.otf") format("opentype");
   }
+
+  
