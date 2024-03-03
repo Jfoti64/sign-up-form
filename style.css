@@ -8,18 +8,23 @@ body {
     background-color: rgb(238, 238, 238);
 }
 
-.col1, .col2, .row1, .row2, .row3 {
+.col1, .col2, .row1, .row2, .row3, .formCols, .formCol1, .formCol2 {
     display: flex;
-    margin: 4px 4px 4px 0px;
 }
 
-.col2, .col2, .row1, .row2, .row3 {
+.row1, .row2, .row3 {
+    margin: 4px 4px 4px 0px;
+    padding: 4px 200px 4px 44px;
+}
+
+.col2, .col2, .row1, .row2, .row3, .formCol1, .formCol2 {
     flex-direction: column;
 }
 
 .row2 {
     background-color: white;
     box-shadow: 0 4px 2px -2px gray;
+    padding-bottom: 25px;
 }
 
 body, html {
@@ -60,4 +65,28 @@ body, html {
     font-size: 5rem;
     color: white;
     margin: 10px 0px 0px;
+}
+
+button[type='submit'] {
+    background-color: #596D48;
+    width: 190px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 25px 0px;
+}
+
+input {
+    border-color: #E5E7EB;
+    border-style: solid;
+    margin: 12px 35px 12px 0px;
+    height: 22px;
+    width: 210px;
+    border-radius: 6px;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
