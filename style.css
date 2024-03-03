@@ -30,10 +30,34 @@ body, html {
 
 .col1 {
     height: 100%;
+    position: relative;
 }
 
-img {
+.largeImg {
     height: 100%;
     width: auto; /* Maintain aspect ratio */
 }
 
+.transparentImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.419);
+    width: 100%;
+    top: 160px;
+    width: 100%;
+}
+
+.odinLogo {
+    height: 150px;
+    width: auto;
+}
+
+.norseFont {
+    font-family: NorseBold;
+    font-size: 5rem;
+    color: white;
+    margin: 10px 0px 0px;
+}
