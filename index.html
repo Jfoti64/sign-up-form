@@ -26,27 +26,30 @@
         </div>
         <div class="row2">
             <h3>Let's do this!</h3>
-            <div class="formCols">
-                <div class="formCol1">
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" name="firstName" id="firstName">
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
+            <form action="post" id="signUpForm">
+                <div class="formCols">
+                    <div class="formCol1">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                        <p id="passError"></p>
+                    </div>
+                    <div class="formCol2">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName">
+                        <label for="phoneNum">PHONE NUMBER</label>
+                        <input type="tel" name="phoneNum" id="phoneNum">
+                        <label for="confirmPass">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirmPass" id="confirmPass">
+                    </div>
                 </div>
-                <div class="formCol2">
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" name="lastName" id="lastName">
-                    <label for="phoneNum">PHONE NUMBER</label>
-                    <input type="tel" name="phoneNum" id="phoneNum">
-                    <label for="confirmPass">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirmPass" id="confirmPass">
-                </div>
-            </div>
+            </form>
         </div>
         <div class="row3">
-            <button type="submit">Create Account</button>
+            <button type="submit" form="signUpForm" value="submit">Create Account</button>
             <div>Already have an account? Log in</div>
         </div>
     </div>

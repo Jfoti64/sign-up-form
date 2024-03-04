@@ -77,6 +77,14 @@ button[type='submit'] {
     margin: 25px 0px;
 }
 
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.4);
+}
+
 input {
     border-color: #E5E7EB;
     border-style: solid;
@@ -94,4 +102,12 @@ p {
 label {
     font-size: .8rem;
     padding: 0px;
+}
+
+#passError {
+    display: none;
+    font-size: .7rem;
+    color: red;
+    padding: 0px;
+    margin: -15px 0px 0px 2px;
 }
