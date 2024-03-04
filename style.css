@@ -55,6 +55,21 @@ body, html {
     width: 100%;
 }
 
+.photoCred {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; /* Optional: stretch the paragraph across the entire width */
+    padding: 10px; /* Optional: add padding for better readability */
+    text-align: center; /* Optional: center-align the text */
+    color: white;
+    font-size: .8rem;
+}
+
+.photoCred > a {
+    color: white;
+}
+
 .odinLogo {
     height: 150px;
     width: auto;
